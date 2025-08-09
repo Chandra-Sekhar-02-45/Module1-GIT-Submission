@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+// You can find a GitHub logo online or use this one
+import githubLogo from './github-logo.png'; // Make sure to have a logo file in src folder
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="milestone-card">
+      
+      {/* GitHub Icon */}
+      <img 
+        src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/github-icon.svg" 
+        alt="GitHub Icon" 
+        className="milestone-icon"
+      />
+      
+      {/* Title */}
+      <h1 className="milestone-title">Module 1: Git & Deployment</h1>
+      
+      {/* The Story */}
+      <p className="milestone-story">
+        Our Module 1 is all about learning Git and deploying the basic frontend of our desired project from GitHub Pages. Guided by Prof. Ashesh K, I moved from simply knowing Git commands to understanding when, why, and how to use them. This repo marks that milestone — our first live, working frontend for the world to see.
+      </p>
+      
+      {/* Student Information */}
+      <div className="student-info">
+        <p className="student-name">R.V. Chandra Sekhara Raju</p>
+        <p className="student-id">ID: 2300031237</p>
+      </div>
+
+      {/* Guide Information */}
+      <div className="guide-info">
+        <p>Guided by Dr. Ashesh K</p>
+      </div>
+
     </div>
   );
 }
