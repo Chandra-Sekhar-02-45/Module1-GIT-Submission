@@ -6,7 +6,7 @@ import App from './App';
 
 test('renders the main project title', () => {
   render(<App />);
-  // This now looks for the ID, not the text
-  const titleElement = screen.getByTestId('Module1-GIT-Submission');
+  // This now looks for the correct ID
+  const titleElement = screen.getByTestId('project-title');
   expect(titleElement).toBeInTheDocument();
 });
