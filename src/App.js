@@ -30,7 +30,7 @@ function App() {
 
       {/* Guide Information */}
       <div className="guide-info">
-        <p>Guided by Dr. Ashesh K</p>
+        <p>Guided by Prof. Ashesh K</p>
       </div>
 
     </div>
