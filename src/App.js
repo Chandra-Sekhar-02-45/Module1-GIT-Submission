@@ -1,6 +1,5 @@
-import './App.css';
-// You can find a GitHub logo online or use this one
 import React from 'react';
+import './App.css';
 
 function App() {
   return (
@@ -13,8 +12,10 @@ function App() {
         className="milestone-icon"
       />
             
-      {/* Title */}
-      <h1 className="milestone-title">Module 1: Git & Deployment</h1>
+      {/* Title with data-testid for testing */}
+      <h1 className="milestone-title" data-testid="project-title">
+        Module 1: Git & Deployment
+      </h1>
       
       {/* The Story */}
       <p className="milestone-story">
