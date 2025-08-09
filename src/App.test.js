@@ -1,10 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-// in src/App.test.js
+// ... your tests start here
 
-import { render, screen } from '@testing-library/react';
-import App from './App';
 
 test('renders the main project title', () => {
   render(<App />);
