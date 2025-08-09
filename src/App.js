@@ -7,7 +7,6 @@ function App() {
     <div className="milestone-card">
       
       {/* GitHub Icon */}
-      // MAKE SURE YOUR IMG TAG LOOKS LIKE THIS
       <img 
         src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/github-icon.svg" 
         alt="GitHub Icon" 
