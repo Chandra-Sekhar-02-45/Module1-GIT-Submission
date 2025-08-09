@@ -1,18 +1,19 @@
 import './App.css';
 // You can find a GitHub logo online or use this one
-import githubLogo from './github-logo.png'; // Make sure to have a logo file in src folder
+import React from 'react';
 
 function App() {
   return (
     <div className="milestone-card">
       
       {/* GitHub Icon */}
+      // MAKE SURE YOUR IMG TAG LOOKS LIKE THIS
       <img 
         src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/github-icon.svg" 
         alt="GitHub Icon" 
         className="milestone-icon"
       />
-      
+            
       {/* Title */}
       <h1 className="milestone-title">Module 1: Git & Deployment</h1>
       
